@@ -1,0 +1,94 @@
+study(title="EMA Guppy (Extended)", shorttitle="EMA Guppy", overlay=true,  scale = scale.right)
+
+//EMA 3//
+EMA3len = input(3, minval=1, title="Length")
+EMA3src = input(close, title="Source")
+EMA3 = ema(EMA3src, EMA3len)
+plot(EMA3,title='EMA3',color=yellow,style=line,linewidth =1)
+
+//EMA 5//
+EMA5len = input(5, minval=1, title="Length")
+EMA5src = input(close, title="Source")
+EMA5 = ema(EMA5src, EMA5len)
+plot(EMA5,title='EMA5',color=yellow,style=line,linewidth =1)
+
+
+//EMA 8//
+EMA8len = input(8, minval=1, title="Length")
+EMA8src = input(close, title="Source")
+EMA8 = ema(EMA8src, EMA8len)
+plot(EMA8,title='EMA8',color=yellow,style=line,linewidth =1)
+
+
+//EMA 10//
+EMA10len = input(10, minval=1, title="Length")
+EMA10src = input(close, title="Source")
+EMA10 = ema(EMA10src, EMA10len)
+plot(EMA10,title='EMA10',color=yellow,style=line,linewidth =1)
+
+//EMA 12//
+EMA12len = input(12, minval=1, title="Length")
+EMA12src = input(close, title="Source")
+EMA12 = ema(EMA12src, EMA12len)
+plot(EMA12,title='EMA12',color=yellow,style=line,linewidth =1)
+
+//EMA 13//
+EMA13len = input(13, minval=1, title="Length")
+EMA13src = input(close, title="Source")
+EMA13 = ema(EMA13src, EMA13len)
+plot(EMA13,title='EMA13',color=yellow,style=line,linewidth =2)
+  
+//EMA 20//  
+EMA20len = input(20, minval=1, title="Length")
+EMA20src = input(close, title="Source")
+EMA20 = ema(EMA20src, EMA20len)
+plot(EMA20,title='EMA20',color=green,style=line,linewidth =2)
+
+//EMA 30//
+EMA30len = input(30, minval=1, title="Length")
+EMA30src = input(close, title="Source")
+EMA30 = ema(EMA30src, EMA30len)
+plot(EMA30,title='EMA30',color=aqua,style=line,linewidth =2)
+
+//EMA 35//
+EMA35len= input(35, minval=1, title="Length")
+EMA35src= input(close, title="Source")
+EMA35= ema(EMA35src, EMA35len)
+plot(EMA35,title='EMA35',color=aqua,style=line,linewidth =1)
+
+//EMA 40//
+EMA40len = input(40, minval=1, title="Length")
+EMA40src = input(close, title="Source")
+EMA40 = ema(EMA40src, EMA40len)
+plot(EMA40,title='EMA40',color=aqua,style=line,linewidth =1)
+
+//EMA 45//
+EMA45len = input(45, minval=1, title="Length")
+EMA45src = input(close, title="Source")
+EMA45 = ema(EMA45src, EMA45len)
+plot(EMA45,title='EM45',color=aqua,style=line,linewidth =1)
+
+//EMA 50//
+EMA50len = input(50, minval=1, title="Length")
+EMA50src = input(close, title="Source")
+EMA50 = ema(EMA50src, EMA50len)
+plot(EMA50,title='EM50',color=aqua,style=line,linewidth =1)
+
+//EMA 100//
+EMA100len = input(100, minval=1, title="Length")
+EMA100src = input(close, title="Source")
+EMA100 = ema(EMA100src, EMA100len)
+plot(EMA100,title='EMA100',color=orange,style=line,linewidth =2)
+
+//EMA 200//
+EMA200len = input(200, minval=1, title="Length")
+EMA200src = input(close, title="Source")
+EMA200 = ema(EMA200src, EMA200len)
+plot(EMA200,title='EMA200',color=fuchsia,style=line,linewidth =2)
+
+
+//EMA 300//
+EMA300len = input(300, minval=1, title="Length")
+EMA300src = input(close, title="Source")
+EMA300 = ema(EMA300src, EMA300len)
+plot(EMA300,title='EMA300',color=purple,style=line,linewidth =2)

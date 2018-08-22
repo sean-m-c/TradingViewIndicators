@@ -1,0 +1,94 @@
+study(title="SMA Guppy (Extended)", shorttitle="SMA Guppy", overlay=true,  scale = scale.right)
+
+//SMA 3//
+SMA3len = input(3, minval=1, title="Length") 
+SMA3src = input(close, title="Source")
+SMA3 = sma(SMA3src, SMA3len)
+plot(SMA3,title='SMA3',color=yellow,style=line,linewidth =1)
+
+//SMA 5//
+SMA5len = input(5, minval=1, title="Length")
+SMA5src = input(close, title="Source")
+SMA5 = sma(SMA5src, SMA5len)
+plot(SMA5,title='SMA5',color=yellow,style=line,linewidth =1)
+
+
+//SMA 8//
+SMA8len = input(8, minval=1, title="Length")
+SMA8src = input(close, title="Source")
+SMA8 = sma(SMA8src, SMA8len)
+plot(SMA8,title='SMA8',color=yellow,style=line,linewidth =1)
+
+
+//SMA 10//
+SMA10len = input(10, minval=1, title="Length")
+SMA10src = input(close, title="Source")
+SMA10 = sma(SMA10src, SMA10len)
+plot(SMA10,title='SMA10',color=yellow,style=line,linewidth =1)
+
+//SMA 12//
+SMA12len = input(12, minval=1, title="Length")
+SMA12src = input(close, title="Source")
+SMA12 = sma(SMA12src, SMA12len)
+plot(SMA12,title='SMA12',color=yellow,style=line,linewidth =1)
+
+//SMA 13//
+SMA13len = input(13, minval=1, title="Length")
+SMA13src = input(close, title="Source")
+SMA13 = sma(SMA13src, SMA13len)
+plot(SMA13,title='SMA13',color=yellow,style=line,linewidth =2)
+  
+//SMA 20//  
+SMA20len = input(20, minval=1, title="Length")
+SMA20src = input(close, title="Source")
+SMA20 = sma(SMA20src, SMA20len)
+plot(SMA20,title='SMA20',color=green,style=line,linewidth =2)
+
+//SMA 30//
+SMA30len = input(30, minval=1, title="Length")
+SMA30src = input(close, title="Source")
+SMA30 = sma(SMA30src, SMA30len)
+plot(SMA30,title='SMA30',color=aqua,style=line,linewidth =2)
+
+//SMA 35//
+SMA35len= input(35, minval=1, title="Length")
+SMA35src= input(close, title="Source")
+SMA35= sma(SMA35src, SMA35len)
+plot(SMA35,title='SMA35',color=aqua,style=line,linewidth =1)
+
+//SMA 40//
+SMA40len = input(40, minval=1, title="Length")
+SMA40src = input(close, title="Source")
+SMA40 = sma(SMA40src, SMA40len)
+plot(SMA40,title='SMA40',color=aqua,style=line,linewidth =1)
+
+//SMA 45//
+SMA45len = input(45, minval=1, title="Length")
+SMA45src = input(close, title="Source")
+SMA45 = sma(SMA45src, SMA45len)
+plot(SMA45,title='EM45',color=aqua,style=line,linewidth =1)
+
+//SMA 50//
+SMA50len = input(50, minval=1, title="Length")
+SMA50src = input(close, title="Source")
+SMA50 = sma(SMA50src, SMA50len)
+plot(SMA50,title='EM50',color=aqua,style=line,linewidth =1)
+
+//SMA 100//
+SMA100len = input(100, minval=1, title="Length")
+SMA100src = input(close, title="Source")
+SMA100 = sma(SMA100src, SMA100len)
+plot(SMA100,title='SMA100',color=orange,style=line,linewidth =2)
+
+//SMA 200//
+SMA200len = input(200, minval=1, title="Length")
+SMA200src = input(close, title="Source")
+SMA200 = sma(SMA200src, SMA200len)
+plot(SMA200,title='SMA200',color=fuchsia,style=line,linewidth =2)
+
+
+//SMA 300//
+SMA300len = input(300, minval=1, title="Length")
+SMA300src = input(close, title="Source")
+SMA300 = sma(SMA300src, SMA300len)
+plot(SMA300,title='SMA300',color=purple,style=line,linewidth =2)
